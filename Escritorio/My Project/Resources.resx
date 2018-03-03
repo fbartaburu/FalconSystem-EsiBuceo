@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AComercial" xml:space="preserve">
+    <value>Commercial Assistant</value>
+  </data>
+  <data name="Casado" xml:space="preserve">
+    <value>Married</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="if_resolutions-16_897226" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_resolutions-16_897226.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgMonedaCambiada" xml:space="preserve">
+    <value>The exchange value has been updated</value>
+  </data>
+  <data name="MonedaPesoUYU" xml:space="preserve">
+    <value>Uruguayan Peso</value>
+  </data>
+  <data name="MsgCajaNoCreada" xml:space="preserve">
+    <value>An error has ocurred trying to add the new workstation</value>
+  </data>
+  <data name="MsgSucursalActualizada" xml:space="preserve">
+    <value>The branch has been updated</value>
+  </data>
+  <data name="MsgNuevoClienteError" xml:space="preserve">
+    <value>An error has ocurred trying to create the new client</value>
+  </data>
+  <data name="MsgNuevaCuenta" xml:space="preserve">
+    <value>New account created</value>
+  </data>
+  <data name="MsgNuevaCuentaError" xml:space="preserve">
+    <value>An error has ocurred trying to create the new account</value>
+  </data>
+  <data name="MsgCerrarCuenta" xml:space="preserve">
+    <value>Are you sure you want to close the account?</value>
+  </data>
+  <data name="Gerente" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="if_Client_Male_Light_80824" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Client_Male_Light_80824.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CuentaCorriente" xml:space="preserve">
+    <value>Checking Account</value>
+  </data>
+  <data name="MsgCajaAbierta" xml:space="preserve">
+    <value>The workstation has been open</value>
+  </data>
+  <data name="MsgCuentaAbierta" xml:space="preserve">
+    <value>The account was re-open</value>
+  </data>
+  <data name="if_refresh_60202" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_refresh_602022.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgCajaCreada" xml:space="preserve">
+    <value>The new workstation was added</value>
+  </data>
+  <data name="Soltero" xml:space="preserve">
+    <value>Single</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="Cajero" xml:space="preserve">
+    <value>Cashier</value>
+  </data>
+  <data name="MsgNuevoCliente" xml:space="preserve">
+    <value>New client created</value>
+  </data>
+  <data name="MsgRetiro" xml:space="preserve">
+    <value>The withdraw has been succesful</value>
+  </data>
+  <data name="CajaCerrada" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="if_contact-new_23203" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_contact-new_23203.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_search_magnifying_glass_find_103857" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_search_magnifying_glass_find_103857.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgSucursalNoActualizada" xml:space="preserve">
+    <value>An error has ocurred trying to update the branch</value>
+  </data>
+  <data name="MsgSucursalAgregada" xml:space="preserve">
+    <value>New branch added</value>
+  </data>
+  <data name="MsgClienteExiste" xml:space="preserve">
+    <value>The client already exist</value>
+  </data>
+  <data name="MsgEmpleadoNoAsignadoSucursal" xml:space="preserve">
+    <value>An error has ocurred trying to add the employee to the branch</value>
+  </data>
+  <data name="Deposito" xml:space="preserve">
+    <value>Deposit</value>
+  </data>
+  <data name="if_Money-Increase_379473" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Money-Increase_379473.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgEmpleadoAsignadoSucursal" xml:space="preserve">
+    <value>Employee has been assigned to the branch</value>
+  </data>
+  <data name="CajaAbierta" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="MsgCuentaCerradaError" xml:space="preserve">
+    <value>An error has ocurred trying to close the account</value>
+  </data>
+  <data name="MsgCuentaCerrada" xml:space="preserve">
+    <value>The account had been closed</value>
+  </data>
+  <data name="MsgDepositoError" xml:space="preserve">
+    <value>An error has ocurred trying to deposit the money</value>
+  </data>
+  <data name="if_sign-up_49622" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_sign-up_49622.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CuentaAhorro" xml:space="preserve">
+    <value>Savings Account</value>
+  </data>
+  <data name="MsgCajaNoAbierta" xml:space="preserve">
+    <value>The workstation was not able to open, check the inputs</value>
+  </data>
+  <data name="FSystems" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FSystems.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_money-safe-box_532633" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_money-safe-box_532633.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Transferencia" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="if_new-zoom-best-fit_23480" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_new-zoom-best-fit_234801.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Retiro" xml:space="preserve">
+    <value>Withdraw</value>
+  </data>
+  <data name="MsgDeposito" xml:space="preserve">
+    <value>The deposit has been succesful</value>
+  </data>
+  <data name="ValorDefecto" xml:space="preserve">
+    <value>Default Value</value>
+  </data>
+  <data name="MsgRetiroError" xml:space="preserve">
+    <value>An error has ocurred trying to withdraw the money</value>
+  </data>
+  <data name="MsgTransferenciaError" xml:space="preserve">
+    <value>An error has ocurred trying to transfer the money</value>
+  </data>
+  <data name="MsgTransferencia" xml:space="preserve">
+    <value>The transfer was succesful</value>
+  </data>
+  <data name="Viudo" xml:space="preserve">
+    <value>Widow</value>
+  </data>
+  <data name="MsgClienteNoExiste" xml:space="preserve">
+    <value>Client does not exist</value>
+  </data>
+  <data name="MonedaDolarUSD" xml:space="preserve">
+    <value>American Dollar</value>
+  </data>
+  <data name="if_checks_87418" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_checks_87418.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MsgSucursalNoAgregada" xml:space="preserve">
+    <value>An error has ocurred trying to add the new branch</value>
+  </data>
+  <data name="MsgMonedaNoCambiada" xml:space="preserve">
+    <value>An error has ocurred trying to update the exchange value</value>
+  </data>
+  <data name="if_bank-building_532649" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_bank-building_5326491.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChequeDiferido" xml:space="preserve">
+    <value>Dated</value>
+  </data>
+  <data name="ChequeDirecto" xml:space="preserve">
+    <value>Direct</value>
+  </data>
+  <data name="MsgChequeraNueva" xml:space="preserve">
+    <value>The new checkbook was added to the account</value>
+  </data>
+  <data name="MsgChequeraNuevaError" xml:space="preserve">
+    <value>An error ocurred trying to add the new checkbook</value>
+  </data>
+  <data name="MsgChequeCobrado" xml:space="preserve">
+    <value>The check has been payed</value>
+  </data>
+  <data name="MsgChequeCobradoError" xml:space="preserve">
+    <value>An error has ocurred trying to pay the check</value>
+  </data>
+  <data name="MsgAgregarAcceso" xml:space="preserve">
+    <value>The client now has access to the account</value>
+  </data>
+  <data name="MsgAgregarAccesoError" xml:space="preserve">
+    <value>An error ocurred trying to give access to the account</value>
+  </data>
+  <data name="MsgQuitarAcceso" xml:space="preserve">
+    <value>The client do not have access to this account anymore</value>
+  </data>
+  <data name="MsgQuitarAccesoError" xml:space="preserve">
+    <value>An error ocurred trying to revoke access to the account</value>
+  </data>
+  <data name="MsgNuevoPin" xml:space="preserve">
+    <value>The pin was updated</value>
+  </data>
+  <data name="MsgNuevoPinError" xml:space="preserve">
+    <value>An error has ocurred trying to update the pin</value>
+  </data>
+  <data name="MsgPinIncorrecto" xml:space="preserve">
+    <value>The pin is invalid</value>
+  </data>
+  <data name="DefaultPin" xml:space="preserve">
+    <value>0000</value>
+  </data>
+  <data name="MsgClienteActualizado" xml:space="preserve">
+    <value>The client has been updated</value>
+  </data>
+  <data name="MsgClienteActualizadoError" xml:space="preserve">
+    <value>An error has ocurred trying to update the client</value>
+  </data>
+</root>

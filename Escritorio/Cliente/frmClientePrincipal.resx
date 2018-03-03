@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;btnDeposito.Name" xml:space="preserve">
+    <value>btnDeposito</value>
+  </data>
+  <data name="&gt;&gt;gbCliente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEstadoChequera.Parent" xml:space="preserve">
+    <value>gbChequera</value>
+  </data>
+  <data name="&gt;&gt;btnRetiro.Parent" xml:space="preserve">
+    <value>gbAcciones</value>
+  </data>
+  <data name="&gt;&gt;colTipo.Name" xml:space="preserve">
+    <value>colTipo</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gbChequera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 211</value>
+  </data>
+  <data name="&gt;&gt;gbSaldo.Name" xml:space="preserve">
+    <value>gbSaldo</value>
+  </data>
+  <data name="&gt;&gt;lstAcceso.Parent" xml:space="preserve">
+    <value>gbAccesoClientes</value>
+  </data>
+  <data name="btnNuevaCuenta.Text" xml:space="preserve">
+    <value>New Account</value>
+  </data>
+  <data name="&gt;&gt;gbAccesoClientes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbSaldo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnModificar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNuevaChequera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPropietarioData.Text" xml:space="preserve">
+    <value>Propietario</value>
+  </data>
+  <data name="btnNuevaChequera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 40</value>
+  </data>
+  <data name="colNombre.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="btnRetiro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 40</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gbCuentas.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbMovimientos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnAcceso.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnNuevaCuenta.Name" xml:space="preserve">
+    <value>btnNuevaCuenta</value>
+  </data>
+  <data name="btnModificar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 25</value>
+  </data>
+  <data name="gbCuentas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 110</value>
+  </data>
+  <data name="btnEstadoChequera.Text" xml:space="preserve">
+    <value>Checkbook Status</value>
+  </data>
+  <data name="lblSaldoData.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnTransferencia.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnDeposito.Text" xml:space="preserve">
+    <value>Deposit</value>
+  </data>
+  <data name="btnTransferencia.Text" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="lblSaldo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbAccesoClientes.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gbCliente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 77</value>
+  </data>
+  <data name="&gt;&gt;btnQuitar.Name" xml:space="preserve">
+    <value>btnQuitar</value>
+  </data>
+  <data name="gbCliente.Text" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="lblPropietario.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblMonedaData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbSaldo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboCuentas.Name" xml:space="preserve">
+    <value>cboCuentas</value>
+  </data>
+  <data name="btnRetiro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 25</value>
+  </data>
+  <data name="gbSaldo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 131</value>
+  </data>
+  <data name="&gt;&gt;lblMoneda.Name" xml:space="preserve">
+    <value>lblMoneda</value>
+  </data>
+  <data name="&gt;&gt;btnRetiro.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;gbCuentas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboCuentas.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnAcceso.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblSaldo.Name" xml:space="preserve">
+    <value>lblSaldo</value>
+  </data>
+  <data name="&gt;&gt;gbAcciones.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnNuevaCuenta.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPropietario.Parent" xml:space="preserve">
+    <value>gbSaldo</value>
+  </data>
+  <data name="btnCerrarCuenta.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnNuevaCuenta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPropietario.Text" xml:space="preserve">
+    <value>Owner:</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmClientePrincipal</value>
+  </data>
+  <data name="&gt;&gt;cboCuentas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbAcciones.Text" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="&gt;&gt;lstMovimientos.Name" xml:space="preserve">
+    <value>lstMovimientos</value>
+  </data>
+  <data name="gbAccesoClientes.Text" xml:space="preserve">
+    <value>Clients with Access</value>
+  </data>
+  <data name="&gt;&gt;btnAcceso.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colFecha.Name" xml:space="preserve">
+    <value>colFecha</value>
+  </data>
+  <data name="cboCuentas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 71</value>
+  </data>
+  <data name="&gt;&gt;btnDeposito.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblSaldo.Parent" xml:space="preserve">
+    <value>gbSaldo</value>
+  </data>
+  <data name="colNombre.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Principal Client - </value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="cboCuentas.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gbCuentas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="btnNuevaCuenta.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gbCliente.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnNuevaChequera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 25</value>
+  </data>
+  <data name="btnQuitar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 40</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="btnNuevaChequera.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnModificar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnNuevaChequera.Parent" xml:space="preserve">
+    <value>gbChequera</value>
+  </data>
+  <data name="&gt;&gt;btnCerrarCuenta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEstadoChequera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCerrarCuenta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 40</value>
+  </data>
+  <data name="lblSaldo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 35</value>
+  </data>
+  <data name="lblPropietarioData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="lblSaldo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colMoneda.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;lblPropietarioData.Name" xml:space="preserve">
+    <value>lblPropietarioData</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Office2007Form, DevComponents.DotNetBar2, Version=8.8.0.0, Culture=neutral, PublicKeyToken=e116d99a00eca71b</value>
+  </data>
+  <data name="&gt;&gt;gbCliente.Name" xml:space="preserve">
+    <value>gbCliente</value>
+  </data>
+  <data name="&gt;&gt;btnNuevaCuenta.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnNuevaChequera.Text" xml:space="preserve">
+    <value>New Checkbook</value>
+  </data>
+  <data name="gbCliente.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lstMovimientos.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnQuitar.Text" xml:space="preserve">
+    <value>Revoke Access to Client</value>
+  </data>
+  <data name="colCantidad.Text" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="btnAcceso.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 40</value>
+  </data>
+  <data name="&gt;&gt;btnTransferencia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAcceso.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 275</value>
+  </data>
+  <data name="&gt;&gt;btnDeposito.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSaldoData.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnQuitar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gbAccesoClientes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>824, 149</value>
+  </data>
+  <data name="&gt;&gt;lblSaldoData.Name" xml:space="preserve">
+    <value>lblSaldoData</value>
+  </data>
+  <data name="&gt;&gt;colCantidad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMoneda.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lstAcceso.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbChequera.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblMoneda.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 70</value>
+  </data>
+  <data name="lblMoneda.Text" xml:space="preserve">
+    <value>Currency:</value>
+  </data>
+  <data name="&gt;&gt;btnTransferencia.Parent" xml:space="preserve">
+    <value>gbAcciones</value>
+  </data>
+  <data name="lblMonedaData.Text" xml:space="preserve">
+    <value>Moneda</value>
+  </data>
+  <data name="colDocumento.Text" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="btnNuevaCuenta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 25</value>
+  </data>
+  <data name="gbMovimientos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>580, 380</value>
+  </data>
+  <data name="btnQuitar.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnAcceso.Name" xml:space="preserve">
+    <value>btnAcceso</value>
+  </data>
+  <data name="&gt;&gt;lblPropietario.Name" xml:space="preserve">
+    <value>lblPropietario</value>
+  </data>
+  <data name="&gt;&gt;btnNuevaChequera.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="colFecha.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="gbMovimientos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 12</value>
+  </data>
+  <data name="btnCerrarCuenta.Text" xml:space="preserve">
+    <value>Close Account</value>
+  </data>
+  <data name="&gt;&gt;gbCuentas.Name" xml:space="preserve">
+    <value>gbCuentas</value>
+  </data>
+  <data name="&gt;&gt;btnNuevaChequera.Name" xml:space="preserve">
+    <value>btnNuevaChequera</value>
+  </data>
+  <data name="&gt;&gt;lblMoneda.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbAcciones.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnNuevaCuenta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 40</value>
+  </data>
+  <data name="&gt;&gt;lblPropietarioData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMonedaData.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnTransferencia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 40</value>
+  </data>
+  <data name="&gt;&gt;gbAccesoClientes.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gbAcciones.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colMoneda.Name" xml:space="preserve">
+    <value>colMoneda</value>
+  </data>
+  <data name="colMoneda.Text" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="&gt;&gt;lblMoneda.Parent" xml:space="preserve">
+    <value>gbSaldo</value>
+  </data>
+  <data name="&gt;&gt;gbCuentas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSaldoData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colFecha.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="btnEstadoChequera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 40</value>
+  </data>
+  <data name="&gt;&gt;gbAcciones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lstAcceso.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 235</value>
+  </data>
+  <data name="&gt;&gt;lstAcceso.Name" xml:space="preserve">
+    <value>lstAcceso</value>
+  </data>
+  <data name="&gt;&gt;colTipo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMonedaData.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblSaldoData.Text" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="lblMonedaData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="&gt;&gt;gbMovimientos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTransferencia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 25</value>
+  </data>
+  <data name="&gt;&gt;lblSaldoData.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblPropietarioData.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblMoneda.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblSaldoData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 35</value>
+  </data>
+  <data name="&gt;&gt;lblSaldo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lstMovimientos.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbChequera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 120</value>
+  </data>
+  <data name="&gt;&gt;colDocumento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="&gt;&gt;lstAcceso.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSaldoData.Parent" xml:space="preserve">
+    <value>gbSaldo</value>
+  </data>
+  <data name="cboCuentas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 28</value>
+  </data>
+  <data name="&gt;&gt;btnCerrarCuenta.Name" xml:space="preserve">
+    <value>btnCerrarCuenta</value>
+  </data>
+  <data name="lblPropietarioData.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnRetiro.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gbAcciones.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 400</value>
+  </data>
+  <data name="lblMoneda.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="gbMovimientos.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbMovimientos.Name" xml:space="preserve">
+    <value>gbMovimientos</value>
+  </data>
+  <data name="btnQuitar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 320</value>
+  </data>
+  <data name="&gt;&gt;lblPropietarioData.Parent" xml:space="preserve">
+    <value>gbSaldo</value>
+  </data>
+  <data name="colTipo.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;gbAccesoClientes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbAccesoClientes.Name" xml:space="preserve">
+    <value>gbAccesoClientes</value>
+  </data>
+  <data name="&gt;&gt;gbAcciones.Name" xml:space="preserve">
+    <value>gbAcciones</value>
+  </data>
+  <data name="btnCerrarCuenta.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;gbChequera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRetiro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbCliente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 128</value>
+  </data>
+  <data name="gbChequera.Text" xml:space="preserve">
+    <value>Checking Account</value>
+  </data>
+  <data name="&gt;&gt;btnEstadoChequera.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblMonedaData.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbAccesoClientes.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gbCliente.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;colCantidad.Name" xml:space="preserve">
+    <value>colCantidad</value>
+  </data>
+  <data name="&gt;&gt;colDocumento.Name" xml:space="preserve">
+    <value>colDocumento</value>
+  </data>
+  <data name="&gt;&gt;lblPropietarioData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnModificar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 40</value>
+  </data>
+  <data name="&gt;&gt;lstMovimientos.Parent" xml:space="preserve">
+    <value>gbMovimientos</value>
+  </data>
+  <data name="lstMovimientos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 25</value>
+  </data>
+  <data name="lblPropietario.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnModificar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbCuentas.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnAcceso.Text" xml:space="preserve">
+    <value>Grant Access to Client</value>
+  </data>
+  <data name="&gt;&gt;btnCerrarCuenta.Parent" xml:space="preserve">
+    <value>gbAcciones</value>
+  </data>
+  <data name="lblPropietario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 105</value>
+  </data>
+  <data name="colCantidad.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="gbSaldo.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="&gt;&gt;gbSaldo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbAcciones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>580, 125</value>
+  </data>
+  <data name="gbMovimientos.Text" xml:space="preserve">
+    <value>Account Movements</value>
+  </data>
+  <data name="btnEstadoChequera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 71</value>
+  </data>
+  <data name="&gt;&gt;lstMovimientos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnModificar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lstAcceso.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="colTipo.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="&gt;&gt;btnNuevaCuenta.Parent" xml:space="preserve">
+    <value>gbCuentas</value>
+  </data>
+  <data name="lblSaldoData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1184, 537</value>
+  </data>
+  <data name="gbSaldo.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblSaldo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
+  </data>
+  <data name="btnDeposito.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 25</value>
+  </data>
+  <data name="btnDeposito.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;gbChequera.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnTransferencia.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblPropietario.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnDeposito.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 40</value>
+  </data>
+  <data name="&gt;&gt;btnDeposito.Parent" xml:space="preserve">
+    <value>gbAcciones</value>
+  </data>
+  <data name="&gt;&gt;lblMonedaData.Name" xml:space="preserve">
+    <value>lblMonedaData</value>
+  </data>
+  <data name="btnModificar.Text" xml:space="preserve">
+    <value>Modify Client</value>
+  </data>
+  <data name="colDocumento.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;gbCliente.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblMoneda.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnModificar.Parent" xml:space="preserve">
+    <value>gbCliente</value>
+  </data>
+  <data name="&gt;&gt;btnModificar.Name" xml:space="preserve">
+    <value>btnModificar</value>
+  </data>
+  <data name="&gt;&gt;gbChequera.Name" xml:space="preserve">
+    <value>gbChequera</value>
+  </data>
+  <data name="&gt;&gt;gbMovimientos.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblPropietario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="&gt;&gt;lstAcceso.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblSaldo.Text" xml:space="preserve">
+    <value>Balance: </value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="btnEstadoChequera.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnTransferencia.Name" xml:space="preserve">
+    <value>btnTransferencia</value>
+  </data>
+  <data name="gbChequera.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;colFecha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lstMovimientos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>560, 345</value>
+  </data>
+  <data name="gbAccesoClientes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 380</value>
+  </data>
+  <data name="&gt;&gt;cboCuentas.Parent" xml:space="preserve">
+    <value>gbCuentas</value>
+  </data>
+  <data name="&gt;&gt;colMoneda.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPropietarioData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 105</value>
+  </data>
+  <data name="&gt;&gt;lblSaldo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMonedaData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 70</value>
+  </data>
+  <data name="&gt;&gt;colNombre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCerrarCuenta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 75</value>
+  </data>
+  <data name="&gt;&gt;btnRetiro.Name" xml:space="preserve">
+    <value>btnRetiro</value>
+  </data>
+  <data name="&gt;&gt;btnQuitar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEstadoChequera.Name" xml:space="preserve">
+    <value>btnEstadoChequera</value>
+  </data>
+  <data name="&gt;&gt;lblPropietario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbSaldo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>824, 12</value>
+  </data>
+  <data name="&gt;&gt;btnCerrarCuenta.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;colNombre.Name" xml:space="preserve">
+    <value>colNombre</value>
+  </data>
+  <data name="&gt;&gt;lblMonedaData.Parent" xml:space="preserve">
+    <value>gbSaldo</value>
+  </data>
+  <data name="&gt;&gt;btnAcceso.Parent" xml:space="preserve">
+    <value>gbAccesoClientes</value>
+  </data>
+  <data name="&gt;&gt;btnQuitar.Parent" xml:space="preserve">
+    <value>gbAccesoClientes</value>
+  </data>
+  <data name="gbCuentas.Text" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="btnRetiro.Text" xml:space="preserve">
+    <value>Withdraw</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

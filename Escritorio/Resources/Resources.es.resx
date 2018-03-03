@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AComercial" xml:space="preserve">
+    <value>Asistente Comercial</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>Administrador</value>
+  </data>
+  <data name="CajaAbierta" xml:space="preserve">
+    <value>Abierta</value>
+  </data>
+  <data name="CajaCerrada" xml:space="preserve">
+    <value>Cerrada</value>
+  </data>
+  <data name="Cajero" xml:space="preserve">
+    <value>Cajero</value>
+  </data>
+  <data name="Casado" xml:space="preserve">
+    <value>Casado</value>
+  </data>
+  <data name="ChequeDiferido" xml:space="preserve">
+    <value>Diferido</value>
+  </data>
+  <data name="ChequeDirecto" xml:space="preserve">
+    <value>Directo</value>
+  </data>
+  <data name="CuentaAhorro" xml:space="preserve">
+    <value>Cuenta de Ahorro</value>
+  </data>
+  <data name="CuentaCorriente" xml:space="preserve">
+    <value>Cuenta Corriente</value>
+  </data>
+  <data name="Deposito" xml:space="preserve">
+    <value>Depósito</value>
+  </data>
+  <data name="Gerente" xml:space="preserve">
+    <value>Gerente</value>
+  </data>
+  <data name="MonedaDolarUSD" xml:space="preserve">
+    <value>Dolar Americano</value>
+  </data>
+  <data name="MonedaPesoUYU" xml:space="preserve">
+    <value>Peso Uruguayo</value>
+  </data>
+  <data name="MsgAgregarAcceso" xml:space="preserve">
+    <value>Se ha otorgado acceso al cliente</value>
+  </data>
+  <data name="MsgAgregarAccesoError" xml:space="preserve">
+    <value>Ha ocurrido un error al otorgar el acceso</value>
+  </data>
+  <data name="MsgCajaAbierta" xml:space="preserve">
+    <value>La caja ha sido abierta</value>
+  </data>
+  <data name="MsgCajaCreada" xml:space="preserve">
+    <value>Se ha creado la nueva caja</value>
+  </data>
+  <data name="MsgCajaNoAbierta" xml:space="preserve">
+    <value>Ha ocurrido un error al abrir la caja, favor de ingresar los datos</value>
+  </data>
+  <data name="MsgCajaNoCreada" xml:space="preserve">
+    <value>Ha ocurrido un error al crear la caja</value>
+  </data>
+  <data name="MsgCerrarCuenta" xml:space="preserve">
+    <value>¿Está seguro que quiere cerrar la cuenta?</value>
+  </data>
+  <data name="MsgChequeCobrado" xml:space="preserve">
+    <value>Se ha pagado el cheque</value>
+  </data>
+  <data name="MsgChequeCobradoError" xml:space="preserve">
+    <value>Ha ocurrido un error al pagar el cheque</value>
+  </data>
+  <data name="MsgChequeraNueva" xml:space="preserve">
+    <value>La nueva chequera fue añadida a la cuenta</value>
+  </data>
+  <data name="MsgChequeraNuevaError" xml:space="preserve">
+    <value>Ha ocurrido un error al agregar la chequera a la cuenta</value>
+  </data>
+  <data name="MsgClienteActualizado" xml:space="preserve">
+    <value>Se ha actualizado el cliente</value>
+  </data>
+  <data name="MsgClienteActualizadoError" xml:space="preserve">
+    <value>Ha ocurrido un error al actualizar el cliente</value>
+  </data>
+  <data name="MsgClienteExiste" xml:space="preserve">
+    <value>El cliente ya existe</value>
+  </data>
+  <data name="MsgClienteNoExiste" xml:space="preserve">
+    <value>El cliente no existe</value>
+  </data>
+  <data name="MsgCuentaAbierta" xml:space="preserve">
+    <value>La cuenta ha sido abierta</value>
+  </data>
+  <data name="MsgCuentaCerrada" xml:space="preserve">
+    <value>La cuenta ha sido cerrada</value>
+  </data>
+  <data name="MsgCuentaCerradaError" xml:space="preserve">
+    <value>Ha ocurrido un error al cerrar la cuenta</value>
+  </data>
+  <data name="MsgDeposito" xml:space="preserve">
+    <value>Se ha depositado el dinero</value>
+  </data>
+  <data name="MsgDepositoError" xml:space="preserve">
+    <value>Ha ocurrido un error al depositar el dinero</value>
+  </data>
+  <data name="MsgEmpleadoAsignadoSucursal" xml:space="preserve">
+    <value>El empleado ha sido asignado a la sucursal</value>
+  </data>
+  <data name="MsgEmpleadoNoAsignadoSucursal" xml:space="preserve">
+    <value>Ha ocurrido un error al asignar el empleado a la sucursal</value>
+  </data>
+  <data name="MsgMonedaCambiada" xml:space="preserve">
+    <value>La moneda ha sido actualizada</value>
+  </data>
+  <data name="MsgMonedaNoCambiada" xml:space="preserve">
+    <value>Ha ocurrido un error al actualizar la moneda</value>
+  </data>
+  <data name="MsgNuevaCuenta" xml:space="preserve">
+    <value>Nueva cuenta creada</value>
+  </data>
+  <data name="MsgNuevaCuentaError" xml:space="preserve">
+    <value>Ha ocurrido un error al crear la cuenta</value>
+  </data>
+  <data name="MsgNuevoCliente" xml:space="preserve">
+    <value>Nuevo cliente creado</value>
+  </data>
+  <data name="MsgNuevoClienteError" xml:space="preserve">
+    <value>Ha ocurrido un problema al crear el cliente</value>
+  </data>
+  <data name="MsgNuevoPin" xml:space="preserve">
+    <value>Se ha actualizado el pin</value>
+  </data>
+  <data name="MsgNuevoPinError" xml:space="preserve">
+    <value>Ha ocurrido un error al actualizar el pin</value>
+  </data>
+  <data name="MsgPinIncorrecto" xml:space="preserve">
+    <value>El pin ingresado es inválido</value>
+  </data>
+  <data name="MsgQuitarAcceso" xml:space="preserve">
+    <value>El cliente ya no tiene acceso a la cuenta</value>
+  </data>
+  <data name="MsgQuitarAccesoError" xml:space="preserve">
+    <value>Ha ocurrido un error al quitarle el acceso al cliente</value>
+  </data>
+  <data name="MsgRetiro" xml:space="preserve">
+    <value>Se ha retirado el dinero</value>
+  </data>
+  <data name="MsgRetiroError" xml:space="preserve">
+    <value>Ha ocurrido un error al retirar el dinero</value>
+  </data>
+  <data name="MsgSucursalActualizada" xml:space="preserve">
+    <value>La sucursal ha sido actualizada</value>
+  </data>
+  <data name="MsgSucursalAgregada" xml:space="preserve">
+    <value>Nueva sucursal agregada</value>
+  </data>
+  <data name="MsgSucursalNoActualizada" xml:space="preserve">
+    <value>Ha ocurrido un error al actualizar la sucursal</value>
+  </data>
+  <data name="MsgSucursalNoAgregada" xml:space="preserve">
+    <value>Ha ocurrido un error al agregar la sucursal</value>
+  </data>
+  <data name="MsgTransferencia" xml:space="preserve">
+    <value>Se ha concreteado la transferencia de dinero</value>
+  </data>
+  <data name="MsgTransferenciaError" xml:space="preserve">
+    <value>Ha ocurrido un error al concretarse la transferencia</value>
+  </data>
+  <data name="Retiro" xml:space="preserve">
+    <value>Retiro</value>
+  </data>
+  <data name="Soltero" xml:space="preserve">
+    <value>Soltero</value>
+  </data>
+  <data name="Transferencia" xml:space="preserve">
+    <value>Transferencia</value>
+  </data>
+  <data name="Viudo" xml:space="preserve">
+    <value>Viudo</value>
+  </data>
+</root>

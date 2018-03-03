@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{32D26682-C974-466F-B722-B93043C8E069}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Escritorio.My.MyApplication</StartupObject>
+    <RootNamespace>Escritorio</RootNamespace>
+    <AssemblyName>Escritorio</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Escritorio.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Escritorio.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Design, Version=8.8.0.0, Culture=neutral, PublicKeyToken=e116d99a00eca71b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Ribbon DLL\DevComponents.DotNetBar.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=8.8.0.0, Culture=neutral, PublicKeyToken=e116d99a00eca71b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Ribbon DLL\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=8.8.0.0, Culture=neutral, PublicKeyToken=e116d99a00eca71b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Ribbon DLL\DevComponents.Instrumentation.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation.Design, Version=8.8.0.0, Culture=neutral, PublicKeyToken=e116d99a00eca71b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Ribbon DLL\DevComponents.Instrumentation.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ATM\frmATMPrincipal.Designer.vb">
+      <DependentUpon>frmATMPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ATM\frmATMPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ATM\ucCambiarPin.Designer.vb">
+      <DependentUpon>ucCambiarPin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ATM\ucCambiarPin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ATM\ucDeposito.Designer.vb">
+      <DependentUpon>ucDeposito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ATM\ucDeposito.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ATM\ucEstadoCuenta.Designer.vb">
+      <DependentUpon>ucEstadoCuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ATM\ucEstadoCuenta.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ATM\ucListaCuentas.Designer.vb">
+      <DependentUpon>ucListaCuentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ATM\ucListaCuentas.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ATM\ucRetiro.Designer.vb">
+      <DependentUpon>ucRetiro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ATM\ucRetiro.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ATM\ucTransferencia.Designer.vb">
+      <DependentUpon>ucTransferencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ATM\ucTransferencia.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Caja\frmAbrirCaja.Designer.vb">
+      <DependentUpon>frmAbrirCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Caja\frmAbrirCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Caja\frmDatosCaja.Designer.vb">
+      <DependentUpon>frmDatosCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Caja\frmDatosCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Caja\frmMovimientos.Designer.vb">
+      <DependentUpon>frmMovimientos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Caja\frmMovimientos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Caja\frmNuevaCaja.Designer.vb">
+      <DependentUpon>frmNuevaCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Caja\frmNuevaCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cheque\frmCobrarCheque.Designer.vb">
+      <DependentUpon>frmCobrarCheque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cheque\frmCobrarCheque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cheque\frmEstadoChequera.Designer.vb">
+      <DependentUpon>frmEstadoChequera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cheque\frmEstadoChequera.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cheque\frmNuevaChequera.Designer.vb">
+      <DependentUpon>frmNuevaChequera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cheque\frmNuevaChequera.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\frmAcceso.Designer.vb">
+      <DependentUpon>frmAcceso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\frmAcceso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\frmBuscarCliente.Designer.vb">
+      <DependentUpon>frmBuscarCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\frmBuscarCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\frmClientePrincipal.Designer.vb">
+      <DependentUpon>frmClientePrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\frmClientePrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\frmModificarCliente.Designer.vb">
+      <DependentUpon>frmModificarCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\frmModificarCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\frmNuevoCliente.Designer.vb">
+      <DependentUpon>frmNuevoCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\frmNuevoCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\frmQuitarAcceso.Designer.vb">
+      <DependentUpon>frmQuitarAcceso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\frmQuitarAcceso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuenta\frmNuevaCuenta.Designer.vb">
+      <DependentUpon>frmNuevaCuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cuenta\frmNuevaCuenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Moneda\frmCambioValorMoneda.Designer.vb">
+      <DependentUpon>frmCambioValorMoneda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Moneda\frmCambioValorMoneda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Moneda\frmValorMonedas.Designer.vb">
+      <DependentUpon>frmValorMonedas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Moneda\frmValorMonedas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movimientos\frmDeposito.Designer.vb">
+      <DependentUpon>frmDeposito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Movimientos\frmDeposito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movimientos\frmRetiro.Designer.vb">
+      <DependentUpon>frmRetiro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Movimientos\frmRetiro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movimientos\frmTransferencia.Designer.vb">
+      <DependentUpon>frmTransferencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Movimientos\frmTransferencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Global\Functions.vb" />
+    <Compile Include="Global\Variables.vb" />
+    <Compile Include="Sucursal\frmListadoCajas.Designer.vb">
+      <DependentUpon>frmListadoCajas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sucursal\frmListadoCajas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ATM\frmATMPrincipal.es.resx">
+      <DependentUpon>frmATMPrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ATM\frmATMPrincipal.resx">
+      <DependentUpon>frmATMPrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ATM\ucCambiarPin.es.resx">
+      <DependentUpon>ucCambiarPin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ATM\ucCambiarPin.resx">
+      <DependentUpon>ucCambiarPin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ATM\ucDeposito.es.resx">
+      <DependentUpon>ucDeposito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ATM\ucDeposito.resx">
+      <DependentUpon>ucDeposito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ATM\ucEstadoCuenta.es.resx">
+      <DependentUpon>ucEstadoCuenta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ATM\ucEstadoCuenta.resx">
+      <DependentUpon>ucEstadoCuenta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ATM\ucListaCuentas.es.resx">
+      <DependentUpon>ucListaCuentas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ATM\ucListaCuentas.resx">
+      <DependentUpon>ucListaCuentas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ATM\ucRetiro.es.resx">
+      <DependentUpon>ucRetiro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ATM\ucRetiro.resx">
+      <DependentUpon>ucRetiro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ATM\ucTransferencia.es.resx">
+      <DependentUpon>ucTransferencia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ATM\ucTransferencia.resx">
+      <DependentUpon>ucTransferencia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caja\frmAbrirCaja.es.resx">
+      <DependentUpon>frmAbrirCaja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caja\frmAbrirCaja.resx">
+      <DependentUpon>frmAbrirCaja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caja\frmDatosCaja.es.resx">
+      <DependentUpon>frmDatosCaja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caja\frmDatosCaja.resx">
+      <DependentUpon>frmDatosCaja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caja\frmMovimientos.es.resx">
+      <DependentUpon>frmMovimientos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caja\frmMovimientos.resx">
+      <DependentUpon>frmMovimientos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caja\frmNuevaCaja.es.resx">
+      <DependentUpon>frmNuevaCaja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caja\frmNuevaCaja.resx">
+      <DependentUpon>frmNuevaCaja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cheque\frmCobrarCheque.es.resx">
+      <DependentUpon>frmCobrarCheque.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cheque\frmCobrarCheque.resx">
+      <DependentUpon>frmCobrarCheque.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cheque\frmEstadoChequera.es.resx">
+      <DependentUpon>frmEstadoChequera.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cheque\frmEstadoChequera.resx">
+      <DependentUpon>frmEstadoChequera.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cheque\frmNuevaChequera.es.resx">
+      <DependentUpon>frmNuevaChequera.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cheque\frmNuevaChequera.resx">
+      <DependentUpon>frmNuevaChequera.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmAcceso.es.resx">
+      <DependentUpon>frmAcceso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmAcceso.resx">
+      <DependentUpon>frmAcceso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmBuscarCliente.es.resx">
+      <DependentUpon>frmBuscarCliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmBuscarCliente.resx">
+      <DependentUpon>frmBuscarCliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmClientePrincipal.es.resx">
+      <DependentUpon>frmClientePrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmClientePrincipal.resx">
+      <DependentUpon>frmClientePrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmModificarCliente.es.resx">
+      <DependentUpon>frmModificarCliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmModificarCliente.resx">
+      <DependentUpon>frmModificarCliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmNuevoCliente.es.resx">
+      <DependentUpon>frmNuevoCliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmNuevoCliente.resx">
+      <DependentUpon>frmNuevoCliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmQuitarAcceso.es.resx">
+      <DependentUpon>frmQuitarAcceso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmQuitarAcceso.resx">
+      <DependentUpon>frmQuitarAcceso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuenta\frmNuevaCuenta.es.resx">
+      <DependentUpon>frmNuevaCuenta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuenta\frmNuevaCuenta.resx">
+      <DependentUpon>frmNuevaCuenta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.es.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.es.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Moneda\frmCambioValorMoneda.es.resx">
+      <DependentUpon>frmCambioValorMoneda.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Moneda\frmCambioValorMoneda.resx">
+      <DependentUpon>frmCambioValorMoneda.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Moneda\frmValorMonedas.es.resx">
+      <DependentUpon>frmValorMonedas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Moneda\frmValorMonedas.resx">
+      <DependentUpon>frmValorMonedas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movimientos\frmDeposito.es.resx">
+      <DependentUpon>frmDeposito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movimientos\frmDeposito.resx">
+      <DependentUpon>frmDeposito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movimientos\frmRetiro.es.resx">
+      <DependentUpon>frmRetiro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movimientos\frmRetiro.resx">
+      <DependentUpon>frmRetiro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movimientos\frmTransferencia.es.resx">
+      <DependentUpon>frmTransferencia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movimientos\frmTransferencia.resx">
+      <DependentUpon>frmTransferencia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Resources.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sucursal\frmListadoCajas.es.resx">
+      <DependentUpon>frmListadoCajas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sucursal\frmListadoCajas.resx">
+      <DependentUpon>frmListadoCajas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FSystems.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.vbproj">
+      <Project>{0D2D8D02-6E96-47D3-A907-335FD4CB6E9B}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entities\Entities.vbproj">
+      <Project>{6F27A68A-34B4-4B27-A718-D34CF86965D1}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_sign-up_49622.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_bank-building_532649.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_new-zoom-best-fit_23480.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_contact-new_23203.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_resolutions-16_897226.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Client_Male_Light_80824.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_search_magnifying_glass_find_103857.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_new-zoom-best-fit_234801.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_money-safe-box_532633.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Money-Increase_379473.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_checks_87418.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_refresh_60202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_refresh_602021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_refresh_602022.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_bank-building_5326491.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

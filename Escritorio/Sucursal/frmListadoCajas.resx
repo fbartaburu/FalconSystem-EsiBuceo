@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="colNombreS.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="colNombreS.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="colDepartment.Text" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="colDepartment.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lstSucursales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 75</value>
+  </data>
+  <data name="lstSucursales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 410</value>
+  </data>
+  <data name="lstSucursales.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lstSucursales.Name" xml:space="preserve">
+    <value>lstSucursales</value>
+  </data>
+  <data name="&gt;&gt;lstSucursales.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstSucursales.Parent" xml:space="preserve">
+    <value>gbSucursales</value>
+  </data>
+  <data name="&gt;&gt;lstSucursales.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblBuscarSucursal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblBuscarSucursal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBuscarSucursal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 40</value>
+  </data>
+  <data name="lblBuscarSucursal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 20</value>
+  </data>
+  <data name="lblBuscarSucursal.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblBuscarSucursal.Text" xml:space="preserve">
+    <value>Search Branch:</value>
+  </data>
+  <data name="&gt;&gt;lblBuscarSucursal.Name" xml:space="preserve">
+    <value>lblBuscarSucursal</value>
+  </data>
+  <data name="&gt;&gt;lblBuscarSucursal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBuscarSucursal.Parent" xml:space="preserve">
+    <value>gbSucursales</value>
+  </data>
+  <data name="&gt;&gt;lblBuscarSucursal.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtBuscarSucursal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 37</value>
+  </data>
+  <data name="txtBuscarSucursal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 26</value>
+  </data>
+  <data name="txtBuscarSucursal.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtBuscarSucursal.Name" xml:space="preserve">
+    <value>txtBuscarSucursal</value>
+  </data>
+  <data name="&gt;&gt;txtBuscarSucursal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBuscarSucursal.Parent" xml:space="preserve">
+    <value>gbSucursales</value>
+  </data>
+  <data name="&gt;&gt;txtBuscarSucursal.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gbSucursales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="gbSucursales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 495</value>
+  </data>
+  <data name="gbSucursales.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gbSucursales.Text" xml:space="preserve">
+    <value>Branches</value>
+  </data>
+  <data name="&gt;&gt;gbSucursales.Name" xml:space="preserve">
+    <value>gbSucursales</value>
+  </data>
+  <data name="&gt;&gt;gbSucursales.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbSucursales.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbSucursales.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="colNombre.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="colNombre.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="colIP.Text" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="colIP.Width" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="colEstado.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="colEstado.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="lstCajas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 75</value>
+  </data>
+  <data name="lstCajas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 410</value>
+  </data>
+  <data name="lstCajas.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lstCajas.Name" xml:space="preserve">
+    <value>lstCajas</value>
+  </data>
+  <data name="&gt;&gt;lstCajas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstCajas.Parent" xml:space="preserve">
+    <value>gbCajas</value>
+  </data>
+  <data name="&gt;&gt;lstCajas.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblBuscarCaja.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBuscarCaja.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBuscarCaja.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 40</value>
+  </data>
+  <data name="lblBuscarCaja.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 20</value>
+  </data>
+  <data name="lblBuscarCaja.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblBuscarCaja.Text" xml:space="preserve">
+    <value>Search Workstation:</value>
+  </data>
+  <data name="&gt;&gt;lblBuscarCaja.Name" xml:space="preserve">
+    <value>lblBuscarCaja</value>
+  </data>
+  <data name="&gt;&gt;lblBuscarCaja.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBuscarCaja.Parent" xml:space="preserve">
+    <value>gbCajas</value>
+  </data>
+  <data name="&gt;&gt;lblBuscarCaja.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtBuscarCaja.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 37</value>
+  </data>
+  <data name="txtBuscarCaja.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 26</value>
+  </data>
+  <data name="txtBuscarCaja.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtBuscarCaja.Name" xml:space="preserve">
+    <value>txtBuscarCaja</value>
+  </data>
+  <data name="&gt;&gt;txtBuscarCaja.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBuscarCaja.Parent" xml:space="preserve">
+    <value>gbCajas</value>
+  </data>
+  <data name="&gt;&gt;txtBuscarCaja.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gbCajas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 12</value>
+  </data>
+  <data name="gbCajas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 495</value>
+  </data>
+  <data name="gbCajas.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="gbCajas.Text" xml:space="preserve">
+    <value>Workstations</value>
+  </data>
+  <data name="&gt;&gt;gbCajas.Name" xml:space="preserve">
+    <value>gbCajas</value>
+  </data>
+  <data name="&gt;&gt;gbCajas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbCajas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbCajas.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>904, 512</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Workstations</value>
+  </data>
+  <data name="&gt;&gt;colNombreS.Name" xml:space="preserve">
+    <value>colNombreS</value>
+  </data>
+  <data name="&gt;&gt;colNombreS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colDepartment.Name" xml:space="preserve">
+    <value>colDepartment</value>
+  </data>
+  <data name="&gt;&gt;colDepartment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colNombre.Name" xml:space="preserve">
+    <value>colNombre</value>
+  </data>
+  <data name="&gt;&gt;colNombre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colIP.Name" xml:space="preserve">
+    <value>colIP</value>
+  </data>
+  <data name="&gt;&gt;colIP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colEstado.Name" xml:space="preserve">
+    <value>colEstado</value>
+  </data>
+  <data name="&gt;&gt;colEstado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmListadoCajas</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Office2007Form, DevComponents.DotNetBar2, Version=8.8.0.0, Culture=neutral, PublicKeyToken=e116d99a00eca71b</value>
+  </data>
+</root>
